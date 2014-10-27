@@ -38,11 +38,11 @@ public class Main {
         MenuItem actionItem = new MenuItem("Action");
         actionItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Action Clicked");
+                JOptionPane.showMessageDialog(null, "Action Clicked from the heart");
             }
         });
 
-        MenuItem closeItem = new MenuItem("Close");
+        MenuItem closeItem = new MenuItem("Closed from the heart");
         closeItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
